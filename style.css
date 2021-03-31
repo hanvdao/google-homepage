@@ -98,7 +98,3 @@ button:hover {
 .search-box:hover {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
-
-#profile-pic:hover {
-  drop-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-}
