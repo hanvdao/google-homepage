@@ -1,0 +1,104 @@
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+#profile-picture {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.nav-bar {
+  height: 10vh;
+  list-style: none;
+  display: flex;
+}
+
+.left-nav {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.right-nav {
+  display: flex;
+  flex: 3;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-nav > *,
+.right-nav > * {
+  margin: 0px 5px;
+}
+
+.search-box {
+  border-style: solid;
+  background-color: transparent;
+  border-color: rgba(0, 0, 0, 0.1);
+  height: 1.7rem;
+  width: 25rem;
+  border-radius: 25px;
+  border-width: 1px;
+  padding: 0.1rem 0.66rem 0.1rem 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.search-box > i {
+  opacity: 0.15;
+}
+
+#keyword {
+  flex: 0.9;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 5px 7px;
+  border-radius: 3px;
+  font-family: "Roboto" sans-serif;
+  font-size: 11px;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+#logo {
+  width: 16%;
+  height: auto;
+  margin-top: 6rem;
+}
+
+button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.search-box:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+#profile-pic:hover {
+  drop-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
